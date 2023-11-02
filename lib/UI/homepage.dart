@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.fromLTRB(16, 45, 0, 0),
             height: MediaQuery.of(context).size.height * 0.5,
             decoration: const BoxDecoration(
-                image: DecorationImage(image: AssetImage("assets/images/"))),
+                image: DecorationImage(image: AssetImage("assets/images/top_image.png"))),
           )
         ],
       ),
