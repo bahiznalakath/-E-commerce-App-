@@ -5,11 +5,11 @@ import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 class ProductCard extends StatefulWidget {
   const ProductCard(
       {super.key,
-        required this.price,
-        required this.category,
-        required this.id,
-        required this.name,
-        required this.image});
+      required this.price,
+      required this.category,
+      required this.id,
+      required this.name,
+      required this.image});
 
   final String price;
   final String category;
@@ -49,7 +49,7 @@ class _ProductCardState extends State<ProductCard> {
                     height: MediaQuery.of(context).size.height * 0.23,
                     decoration: BoxDecoration(
                         image:
-                        DecorationImage(image: NetworkImage(widget.image))),
+                            DecorationImage(image: NetworkImage(widget.image))),
                   ),
                   Positioned(
                     right: 10,
@@ -74,7 +74,7 @@ class _ProductCardState extends State<ProductCard> {
                     Text(
                       widget.category,
                       style:
-                      appstyleWithHt(18, Colors.grey, FontWeight.bold, 1.5),
+                          appstyleWithHt(18, Colors.grey, FontWeight.bold, 1.5),
                     )
                   ],
                 ),
@@ -94,14 +94,14 @@ class _ProductCardState extends State<ProductCard> {
                           "Colors",
                           style: appstyle(18, Colors.grey, FontWeight.w500),
                         ),
-                        const SizedBox(
-                          width: 5,
-                        ),
-                        ChoiceChip(label: const Text(" "),
+                       const SizedBox(width: 5,),
+                        ChoiceChip(
+                          label: const Text(" "),
                           selected: selected,
                           visualDensity: VisualDensity.compact,
                           selectedColor: Colors.black,
-                        )
+
+                        ),
                       ],
                     )
                   ],
