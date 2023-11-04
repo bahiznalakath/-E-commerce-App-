@@ -84,10 +84,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return const ProductCard(
-                                  price: "20.00",
+                                  price: " 20.00 INR",
                                   category: "Men Shoes",
                                   id: "1",
-                                  name: "Adidas",
+                                  name: "Adidas NMD Runner ",
                                   image:
                                       'https://d326fntlu7tb1e.cloudfront.net/uploads/58282ea3-b815-4d26-9f4f-382aa62f67cf-HP5404_a1.webp',
                                 );
