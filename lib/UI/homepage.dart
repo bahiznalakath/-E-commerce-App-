@@ -1,11 +1,11 @@
 import 'package:e_commerce_app/models/servies/helper.dart';
 import 'package:e_commerce_app/models/sneaker_model.dart';
 import 'package:e_commerce_app/shared/HomeWidget.dart';
-import 'package:e_commerce_app/shared/NewShoes.dart';
+
 import 'package:e_commerce_app/shared/appstyle.dart';
-import 'package:e_commerce_app/shared/product_card.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key});

@@ -17,7 +17,7 @@ class MainScreen extends StatelessWidget {
   List<Widget> pageList = const [
     HomePage(),
     SearchPage(),
-    ProductByCat(),
+    ProductByCat(tabIndex: null,),
     CartPage(),
     ProfilePage()
   ];
